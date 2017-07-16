@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>PHP-DSP: Digital Signal Processing library for PHP</title>
+<style>
+	body { background-color:#FFFFFF; width:75%; padding:1% 3%; font-family:arial, sans-serif; }
+	h1 { font-family:"Courier New", Courier; background-color:#000044; color:#FFFFFF; padding:7px; }
+	p { font-size:16px; color:#333355; }
+</style>
+</head>
+
+<body>
+
+<h1>PHP-DSP: Digital Signal Processing library for PHP</h1>
+
+<p>Digital Signal Processing library for PHP is a set of classes for creating and analyzing digital signals. It contains operations for converting between continuous signals to discrete signals, and to move data back and forth from time domain to frequency domain.</p>
+
+<p>Its classes and code are ported from Python code in "<a href="http://greenteapress.com/wp/think-dsp/">Think DSP</a>", a great book by Allen B. Downey.</p>
+
+<p>Due to limitations in PHP language, DFT is not supported, while DCT is.</p>
+
+<p>This library uses <a href="https://numphp.org/">NumPHP</a> for running matrix and vector operations.</p>
+
+<p>
+	This image shows the relationships between the classes and methods for creating one object from the other:<br />
+	
+	<img src="manual/diagram.png" alt="PHP-DSP Diagram" style="width:40%; padding:30px;" />
+</p>
+
+<ul>
+	<li><a href="examples/chart.php">Examples</a></li>
+	<li><a href="manual/index.html">API Documentation</a></li>
+</ul>
+
+<h2>Installation</h2>
+
+<p>Using Composer:</p>
+
+<pre>$ composer require phpdsp/phpdsp</pre>
+
+<p>Or download directly from Github: <a href="https://github.com/mason88/phpdsp">Github repository</a></p>
+
+<h2>Dependencies</h2>
+
+<ul>
+    <li><a href="https://github.com/NumPHP/NumPHP">numphp/numphp</a>: This library is included directly into this repository and contains custom modifications for this project.</li>
+</ul>
+
+<h2>License</h2>
+
+<a href="http://www.gnu.org/licenses/gpl.html">http://www.gnu.org/licenses/gpl.html</a>
+
+</body>
+</html>
