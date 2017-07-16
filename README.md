@@ -12,13 +12,9 @@ For complete documentation and examples, please visit: http://masonlee.info/phpd
 
 ## Installation
 
-```sh
-$ git clone https://github.com/mason88/phpdsp
-$ composer install
-```
 Using Composer:
 ```sh
-$ composer require phpdsp/phpdsp
+$ composer require mason88/phpdsp
 ```
 
 ## Dependencies
@@ -27,4 +23,4 @@ $ composer require phpdsp/phpdsp
 This library is included directly into this repository and contains custom modifications for this project.
 
 ## License
-http://www.gnu.org/licenses/gpl.html
+http://www.gnu.org/licenses/gpl.html V3
