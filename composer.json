@@ -1,25 +1,25 @@
 {
-    "name": "mason88/phpdsp",
-    "description": "PHP-DSP: Digital Signal Processing library for PHP",
-    "type": "library",
+	"name": "mason88/phpdsp",
+	"description": "PHP-DSP: Digital Signal Processing library for PHP",
+	"type": "library",
 	"keywords": ["PHP", "DSP", "Fourier"],
-    "require": {
+	"require": {
 		"php": ">=5.4"
-    },
-    "license": "GPL",
-    "authors": [
-        {
-            "name": "Mason Lee",
-            "email": "mlee@masonlee.info",
+	},
+	"license": "GPL-3.0-only",
+	"authors": [
+		{
+			"name": "Mason Lee",
+			"email": "mlee@masonlee.info",
 			"homepage": "http://masonlee.info/"
-        }
-    ],
+		}
+	],
 	"autoload": {
-        "psr-4": {
-            "mason88\\PhpDsp\\": "src/"
-        },
+		"psr-4": {
+			"mason88\\PhpDsp\\": "src/"
+		},
 		"psr-0": {
-            "NumPHP\\": "src/numphp/src/"
-        }
-    }
+			"NumPHP\\": "src/numphp/src/"
+		}
+	}
 }
